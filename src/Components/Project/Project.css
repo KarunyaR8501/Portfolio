@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Raleway:ital,wght@0,200;1,100&display=swap');
+
+
+
+.projects>img{
+    
+    width: 400px;
+    height: 200px;
+    border-radius:5px;
+   
+   
+}
+.projects{
+   
+    margin: 15px;
+    width: 400px;
+    height: 200px;
+    transition: transform 100ms ease-in;
+    border-radius: 5px;
+}  
+.projects:hover{
+    color: white;
+    background-color:rgb(240, 137, 3);
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+   
+    cursor: pointer;
+}
+.projects_content{
+    padding: 10px;
+}
+.projects_content>h4{
+    padding-bottom: 5px;
+    text-align: center ;
+    
+}
+.projects_content>p{
+    font-size: 15px;
+    text-align: center ;
+    margin-top: 10px;
+    font-family: "Montserrat",sans-serif;
+}

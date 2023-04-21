@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Raleway:ital,wght@0,200;1,100&display=swap');
+
+.skillContainer_image{
+    
+   
+    flex: 0.4;
+    
+}
+.skillContainer_image>img{
+border-radius: 3px;
+object-fit: contain;
+height: 500px;
+width: 700px;
+}
+.skillContainer{
+    display: flex;
+    align-items: center;
+    margin: 200px 0;
+    height: 100vh;
+}
+.skillContainer_text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.skillContainer_text>h2{
+    font-size: 30px;
+}
+.skillContainer_skillset>h5{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.skillContainer_slider>.css-eglki6-MuiLinearProgress-root{
+background-color: rgb(88,88,88);
+}
+.skillContainer_slider1>span>.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:tomato
+}
+.skillContainer_slider2>span>.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(156,26,3)
+}
+.skillContainer_slider3>span>.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(255,213,0)
+}
+.skillContainer_slider4>span>.css-5xe99f-MuiLinearProgress-bar1{
+    background-color:rgb(21, 130, 219)
+}
+.skillContainer_slider5>span>.css-5xe99f-MuiLinearProgress-bar1{
+    background-color: rgb(136,146,0)
+}
